@@ -1,0 +1,24 @@
+<html>
+<head>
+    <!-- CSS styling -->
+    <style type="text/css">
+        button{
+            max-width: auto;
+            border: 3px solid black;
+            font-size: xx-large;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<button onclick = "changeColor()">DataFlair</button> 
+<p></p>
+<!-- JavaScript code --><script type="text/javascript">
+    function changeColor(){
+        document.querySelector("button").style.backgroundColor = "blue"; //change background color
+        document.querySelector("button").style.color = "white"; //change font color
+        document.querySelector("p").innerHTML = "Great! The button changed its color." //add text
+    }
+</script>
+</body>
+</html>
